@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-799b9d465eec6eb1b84f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Go-Multiplayer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Go-Multiplayer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Go-Multiplayer-Debug-70da655297c6117e7314.json",
+					"name" : "Go-Multiplayer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Go-Multiplayer_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Go-Multiplayer_autogen-Debug-2f68ea19386a69d96967.json",
+					"name" : "Go-Multiplayer_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Go-Multiplayer_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Go-Multiplayer_autogen_timestamp_deps-Debug-b6ef473e507d24086232.json",
+					"name" : "Go-Multiplayer_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nick/Documents/Go-Multiplayer/build/Desktop-Debug",
+		"source" : "/home/nick/Documents/Go-Multiplayer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
