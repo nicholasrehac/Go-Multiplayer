@@ -12,11 +12,15 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
+
 set(PROJECT_SOURCES
         main.cpp
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        gameboardwidget.h
+        gameboardwidget.cpp
+        goBoard.png
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -38,11 +42,17 @@ else()
     else()
         add_executable(Go-Multiplayer
             ${PROJECT_SOURCES}
+            gameboardwidget.h gameboardwidget.cpp
         )
     endif()
 endif()
 
 target_link_libraries(Go-Multiplayer PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_include_directories(Go-Multiplayer PRIVATE ${PROJECT_SOURCE_DIR})
+add_custom_command(
+    TARGET Go-Multiplayer POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_SOURCE_DIR}/goBoard.png ${CMAKE_BINARY_DIR}/goBoard.png
+)
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an

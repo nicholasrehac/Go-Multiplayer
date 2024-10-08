@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "Go-Multiplayer_autogen/timestamp" "custom" "Go-Multiplayer_autogen/deps"
   "/home/nick/Documents/Go-Multiplayer/build/Desktop-Debug/Go-Multiplayer_autogen/mocs_compilation.cpp" "CMakeFiles/Go-Multiplayer.dir/Go-Multiplayer_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/Go-Multiplayer.dir/Go-Multiplayer_autogen/mocs_compilation.cpp.o.d"
+  "/home/nick/Documents/Go-Multiplayer/gameboardwidget.cpp" "CMakeFiles/Go-Multiplayer.dir/gameboardwidget.cpp.o" "gcc" "CMakeFiles/Go-Multiplayer.dir/gameboardwidget.cpp.o.d"
   "/home/nick/Documents/Go-Multiplayer/main.cpp" "CMakeFiles/Go-Multiplayer.dir/main.cpp.o" "gcc" "CMakeFiles/Go-Multiplayer.dir/main.cpp.o.d"
   "/home/nick/Documents/Go-Multiplayer/mainwindow.cpp" "CMakeFiles/Go-Multiplayer.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/Go-Multiplayer.dir/mainwindow.cpp.o.d"
   )

@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "Go-Multiplayer_autogen"
   "CMakeFiles/Go-Multiplayer.dir/Go-Multiplayer_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/Go-Multiplayer.dir/Go-Multiplayer_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/Go-Multiplayer.dir/gameboardwidget.cpp.o"
+  "CMakeFiles/Go-Multiplayer.dir/gameboardwidget.cpp.o.d"
   "CMakeFiles/Go-Multiplayer.dir/main.cpp.o"
   "CMakeFiles/Go-Multiplayer.dir/main.cpp.o.d"
   "CMakeFiles/Go-Multiplayer.dir/mainwindow.cpp.o"

@@ -224,6 +224,30 @@ Go-Multiplayer_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Go-Multiplayer.dir/build.make CMakeFiles/Go-Multiplayer.dir/Go-Multiplayer_autogen/mocs_compilation.cpp.s
 .PHONY : Go-Multiplayer_autogen/mocs_compilation.cpp.s
 
+gameboardwidget.o: gameboardwidget.cpp.o
+.PHONY : gameboardwidget.o
+
+# target to build an object file
+gameboardwidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Go-Multiplayer.dir/build.make CMakeFiles/Go-Multiplayer.dir/gameboardwidget.cpp.o
+.PHONY : gameboardwidget.cpp.o
+
+gameboardwidget.i: gameboardwidget.cpp.i
+.PHONY : gameboardwidget.i
+
+# target to preprocess a source file
+gameboardwidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Go-Multiplayer.dir/build.make CMakeFiles/Go-Multiplayer.dir/gameboardwidget.cpp.i
+.PHONY : gameboardwidget.cpp.i
+
+gameboardwidget.s: gameboardwidget.cpp.s
+.PHONY : gameboardwidget.s
+
+# target to generate assembly for a file
+gameboardwidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Go-Multiplayer.dir/build.make CMakeFiles/Go-Multiplayer.dir/gameboardwidget.cpp.s
+.PHONY : gameboardwidget.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -290,6 +314,9 @@ help:
 	@echo "... Go-Multiplayer_autogen/mocs_compilation.o"
 	@echo "... Go-Multiplayer_autogen/mocs_compilation.i"
 	@echo "... Go-Multiplayer_autogen/mocs_compilation.s"
+	@echo "... gameboardwidget.o"
+	@echo "... gameboardwidget.i"
+	@echo "... gameboardwidget.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
